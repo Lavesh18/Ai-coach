@@ -1,7 +1,8 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",      // 👈 very important
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./*"]     // 👈 this sets up the alias
     }
   }
 }
